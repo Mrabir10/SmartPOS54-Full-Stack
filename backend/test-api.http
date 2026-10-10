@@ -1,0 +1,32 @@
+### Create Product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Lahore Special Panjabi",
+  "productCode": "RAN022",
+  "sellingPrice": 1850,
+  "purchasePrice": 1200,
+  "size": "L",
+  "stock": 10
+}
+
+
+### Get All Products
+GET http://localhost:3000/products
+
+
+### Get Product By ID
+GET http://localhost:3000/products/1
+
+
+### Update Product
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+  "sellingPrice": 1900
+}
+
+### Delete Product
+DELETE http://localhost:3000/products/1

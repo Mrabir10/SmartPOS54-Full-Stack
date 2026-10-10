@@ -1,0 +1,24 @@
+# Dependencies
+**/node_modules/
+
+# Expo and React Native
+**/.expo/
+**/web-build/
+
+# Build output
+**/dist/
+**/build/
+**/coverage/
+
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+
+# Operating system
+.DS_Store
+Thumbs.db
